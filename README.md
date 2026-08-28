@@ -36,11 +36,17 @@ Alunos:
   - 18.IMC
 ---
 
-#Fluxograma
+# Fluxograma
 
  - Alem do código,o projeto conta com um modelo visual feito no programa Flowgorithm para compreender o fluxo lógico das operações 
 
-##Como rodar o programa
+## Como rodar o arquivo 
+ 
+ 1. Faça o download do programa Flowgorithm
+ 2. Baixe o arquivo nesse repositorio e abra-o
+ 3. Clique no botão run para iniciar o programa.
+
+---
 
 
 
