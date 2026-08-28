@@ -1,0 +1,286 @@
+using System;
+
+public class MyProgram
+{
+    public static void Main(string[] args)
+    {
+        int opção;
+
+        Console.WriteLine("---CALCULADORA---");
+        Console.WriteLine("1.SOMA");
+        Console.WriteLine("2.SUBTRAÇÃO");
+        Console.WriteLine("3.MULTIPLICAÇÃO");
+        Console.WriteLine("4.DIVISÃO");
+        Console.WriteLine("5.POTÊNCIA");
+        Console.WriteLine("6.RAÍZ QUADRADA");
+        Console.WriteLine("7.RAÍZ CÚBICA");
+        Console.WriteLine("8.PORCENTAGEM");
+        Console.WriteLine("9.CIRCUNFERÊNCIA");
+        Console.WriteLine("10.ÁREA DO TRAPÉZIO");
+        Console.WriteLine("11.ÁREA DO CÍRCULO");
+        Console.WriteLine("12.ÁREA DO TRIÂNGULO");
+        Console.WriteLine("13.ÁREA DO LOSÂNGULO");
+        Console.WriteLine("14.LOGARITIMO");
+        Console.WriteLine("15.CELSIUS - FAHRENHEIT");
+        Console.WriteLine("16.CELSIUS - KELVIN");
+        Console.WriteLine("17.MÉDIA ARITIMÉTICA");
+        Console.WriteLine("18.IMC");
+        Console.WriteLine("0.ENCERRAR");
+        opção = (int) inputValue();
+        if (opção == 1)
+        {
+            double a, b, c;
+
+            Console.WriteLine("Digite o primeiro número: ");
+            a = inputValue();
+            Console.WriteLine("Digite o segundo número");
+            b = inputValue();
+            c = a + b;
+            Console.WriteLine("O valor da soma é: " + c);
+        }
+        else
+        {
+            if (opção == 2)
+            {
+                double a, b, c;
+
+                Console.WriteLine("Digite o primeiro número: ");
+                a = inputValue();
+                Console.WriteLine("Digite o segundo número: ");
+                b = inputValue();
+                c = a - b;
+                Console.WriteLine("O valor da subtração é: " + c);
+            }
+            else
+            {
+                if (opção == 3)
+                {
+                    double a, b, c;
+
+                    Console.WriteLine("Digite o primeiro número: ");
+                    a = inputValue();
+                    Console.WriteLine("Digite o segundo número: ");
+                    b = inputValue();
+                    c = a * b;
+                    Console.WriteLine("O valor da multiplicação é: " + c);
+                }
+                else
+                {
+                    if (opção == 4)
+                    {
+                        double a, b, c;
+
+                        Console.WriteLine("Digite o primeiro número: ");
+                        a = inputValue();
+                        Console.WriteLine("Digite o segundo número: ");
+                        b = inputValue();
+                        c = a / b;
+                        Console.WriteLine("O valor da divisão é: " + c);
+                    }
+                    else
+                    {
+                        if (opção == 5)
+                        {
+                            double a, b, c;
+
+                            Console.WriteLine("Digite o primeiro número: ");
+                            a = inputValue();
+                            Console.WriteLine("Digite o segundo número: ");
+                            b = inputValue();
+                            c = Math.Pow(a, b);
+                            Console.WriteLine("O valor da potência é: " + c);
+                        }
+                        else
+                        {
+                            if (opção == 6)
+                            {
+                                double a, b;
+
+                                Console.WriteLine("Digite o número: ");
+                                a = inputValue();
+                                b = Math.Sqrt(a);
+                                Console.WriteLine("O raíz quadrada é: " + b);
+                            }
+                            else
+                            {
+                                if (opção == 7)
+                                {
+                                    double a, b;
+
+                                    Console.WriteLine("Digite o valor de a");
+                                    a = inputValue();
+                                    b = cbrt(a);
+                                    Console.WriteLine("A raíz cúbica é: " + b);
+                                }
+                                else
+                                {
+                                    if (opção == 8)
+                                    {
+                                        double a, b, c;
+
+                                        Console.WriteLine("Digite o primeiro número: ");
+                                        a = inputValue();
+                                        Console.WriteLine("Digite o segundo número: ");
+                                        b = inputValue();
+                                        c = a * b / 100;
+                                        Console.WriteLine("A porcentagem é: " + c);
+                                    }
+                                    else
+                                    {
+                                        if (opção == 9)
+                                        {
+                                            double a, b;
+
+                                            Console.WriteLine("Digite o valor do raio: ");
+                                            a = inputValue();
+                                            b = 2 * 3.1415 * a;
+                                            Console.WriteLine("A circunferência é de: " + b);
+                                        }
+                                        else
+                                        {
+                                            if (opção == 10)
+                                            {
+                                                double a, b, c, d;
+
+                                                Console.WriteLine("Digite o valor da primeira base: ");
+                                                a = inputValue();
+                                                Console.WriteLine("Digite o valor da segunda base: ");
+                                                b = inputValue();
+                                                Console.WriteLine("Digite o valor da altura: ");
+                                                c = inputValue();
+                                                d = a + b * c / 2;
+                                                Console.WriteLine("A área do trapézio é de: " + d);
+                                            }
+                                            else
+                                            {
+                                                if (opção == 11)
+                                                {
+                                                    double a, b;
+
+                                                    Console.WriteLine("Digite o valor do raio: ");
+                                                    a = inputValue();
+                                                    b = 3.1415 * Math.Pow(a, 2);
+                                                    Console.WriteLine("A área do círculo é: " + b);
+                                                }
+                                                else
+                                                {
+                                                    if (opção == 12)
+                                                    {
+                                                        double a, b, c;
+
+                                                        Console.WriteLine("Digite o valor da base");
+                                                        a = inputValue();
+                                                        Console.WriteLine("Digite o valor da altura");
+                                                        b = inputValue();
+                                                        c = a * b / 2;
+                                                        Console.WriteLine("A área do triângulo é: " + c);
+                                                    }
+                                                    else
+                                                    {
+                                                        if (opção == 13)
+                                                        {
+                                                            double a, b, c;
+
+                                                            Console.WriteLine("Digite o valor do primeiro diâmetro: ");
+                                                            a = inputValue();
+                                                            Console.WriteLine("Digite o valor do segundo diâmetro: ");
+                                                            b = inputValue();
+                                                            c = a * b / 2;
+                                                            Console.WriteLine("A área do losângulo é: " + c);
+                                                        }
+                                                        else
+                                                        {
+                                                            if (opção == 14)
+                                                            {
+                                                                double a, b;
+
+                                                                Console.WriteLine("Digite o número: ");
+                                                                a = inputValue();
+                                                                b = Math.Log(a);
+                                                                Console.WriteLine("O valor de log é: " + b);
+                                                            }
+                                                            else
+                                                            {
+                                                                if (opção == 15)
+                                                                {
+                                                                    double a, b;
+
+                                                                    Console.WriteLine("Digite a temperatura em Celsius: ");
+                                                                    a = inputValue();
+                                                                    b = a * 1.8 + 32;
+                                                                    Console.WriteLine("A temperatura em Fahrenheit é de: " + b);
+                                                                }
+                                                                else
+                                                                {
+                                                                    if (opção == 16)
+                                                                    {
+                                                                        double a, b;
+
+                                                                        Console.WriteLine("Digite a temperatura em Celsius: ");
+                                                                        a = inputValue();
+                                                                        b = a + 273;
+                                                                        Console.WriteLine("A temperatura em Kelvin é de: " + b);
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        if (opção == 17)
+                                                                        {
+                                                                            double a, b, c;
+
+                                                                            Console.WriteLine("Digite o primeiro número: ");
+                                                                            a = inputValue();
+                                                                            Console.WriteLine("Digite o segundo número: ");
+                                                                            b = inputValue();
+                                                                            c = a + b / 2;
+                                                                            Console.WriteLine("A média aritimética é: " + c);
+                                                                        }
+                                                                        else
+                                                                        {
+                                                                            if (opção == 18)
+                                                                            {
+                                                                                double a, b, c;
+
+                                                                                Console.WriteLine("Digite o seu peso em Kilos: ");
+                                                                                a = inputValue();
+                                                                                Console.WriteLine("Digite sua altura em Metros: ");
+                                                                                b = inputValue();
+                                                                                c = a / b * b;
+                                                                                Console.WriteLine("Seu IMC é de é: " + c);
+                                                                            }
+                                                                            else
+                                                                            {
+                                                                                if (opção == 0)
+                                                                                {
+                                                                                    Console.WriteLine("Encerrar Programa");
+                                                                                    Console.WriteLine("...");
+                                                                                    Console.WriteLine("PROGRAMA ENCERRADO");
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    // .NET can only read single characters or entire lines from the
+    // console. The following function safely reads a double value.
+    private static double inputValue()
+    {
+        double result;
+        while (!double.TryParse(Console.ReadLine(), out result));
+        return result;
+    }
+}
