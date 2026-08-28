@@ -1,7 +1,14 @@
 # Calculadora-Flowgorithm
 
-Uma calculadora om 18 funções, projetada a partir de um fluxograma do Flowgorithm. O Sistema possui uma menu interativo oferecendo 18 funções matemáticas organizadas e estruturadas.
+Uma calculadora com 18 funções, projetada a partir de um fluxograma do Flowgorithm. O Sistema possui uma menu interativo oferecendo 18 funções matemáticas organizadas e estruturadas.
 ---
+Alunos:
+  -
+  -
+  -
+  - 
+---
+
 # Funcionalidades
 - Operações Básicas:
    - 1.Adição
@@ -26,12 +33,14 @@ Uma calculadora om 18 funções, projetada a partir de um fluxograma do Flowgori
 - Média
    - 17.Média Aritimética
 - IMC
-  - 18.IM
-  
-Alunos:
-- 
--
--
--
-
+  - 18.IMC
 ---
+
+#Fluxograma
+
+ - Alem do código,o projeto conta com um modelo visual feito no programa Flowgorithm para compreender o fluxo lógico das operações 
+
+##Como rodar o programa
+
+
+
