@@ -2,9 +2,9 @@
 ---
 ## Alunos:
   - Anna Clara Damasceno de Almeida 
-  - Arthur Pierre Silva
-  -
-  - Rafael Eliakin
+  - Arthur Pierre de Aguiar da Silva
+  - Suellen Carolynne Queiroz dos Santos
+  - Rafael Eliaquim Ramos Lima
 ---
 Uma calculadora com 18 funções, projetada a partir de um fluxograma do Flowgorithm. O Sistema possui uma menu interativo oferecendo 18 funções matemáticas organizadas e estruturadas.
 
