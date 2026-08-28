@@ -1,14 +1,14 @@
 # Calculadora-Flowgorithm
-
+---
+## Alunos:
+  - Anna Clara Damasceno de Almeida 
+  - Arthur Pierre Silva
+  -
+  - Rafael Eliakin
+---
 Uma calculadora com 18 funções, projetada a partir de um fluxograma do Flowgorithm. O Sistema possui uma menu interativo oferecendo 18 funções matemáticas organizadas e estruturadas.
----
-Alunos:
-  -
-  -
-  -
-  - 
----
 
+---
 # Funcionalidades
 - Operações Básicas:
    - 1.Adição
